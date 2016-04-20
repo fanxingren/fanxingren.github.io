@@ -1,0 +1,32 @@
+<html>
+<head><title>script测试</title>
+<link href="Mcss.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<script>
+function myfunction(){
+var a="lixiaojie";
+document.getElementById("anniu").innerHTML="this is my javascript";
+
+    My(a);
+}
+
+function my(){
+document.getElementById("anniu").innerHTML="this is my firdt!";
+}
+function My(a){
+alert(a);
+}
+</script>
+
+
+<p id="anniu" class="hi">this my first</p>
+<p id="anniu" class="sec">this my sec css</p>
+<button  onclick="myfunction()" title="shiyixia">试一试</button>
+<button  onclick="My(a)">弹出名字</button>
+<button  onclick="my()">改回来试一试</button>
+<p></p>
+
+</body>
+</html>
